@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+html{
+  background: linear-gradient(120deg, #03000c -14.45%, #020107 106.15%);
+}
+
+@font-face {
+  font-family: 'BrownStd-Bold';
+  src: url('../fonts/BrownStd/BrownStd-Bold.otf') format('opentye');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BrownStd-Light';
+  src: url('../fonts/BrownStd/BrownStd-Light.otf');
+
+}
+
+@font-face {
+  font-family: 'BrownStd-Regular';
+  src: url('../fonts/BrownStd/BrownStd-Regular.otf');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'BrownStd-Thin';
+  src: url('../fonts/BrownStd/BrownStd-Thin.otf');
+  font-style: normal;
+  font-display: swap;
+}

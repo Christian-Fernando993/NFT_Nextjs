@@ -1,4 +1,7 @@
 import './globals.css'
+import { Header } from '@/components/header';
+import { Footer } from '@/components/footer';
+
 
 export const metadata = {
   title: "Bem Vindo | Loovi",
@@ -8,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

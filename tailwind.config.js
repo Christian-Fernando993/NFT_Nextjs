@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -23,6 +24,16 @@ module.exports = {
         BrownStdRegular: ['BrownStd-Regular', 'sans-serif'],
         BrownStdThin: ['BrownStd-Thin', 'sans-serif'],
       },
+      colors: {
+        'blue-primary': '#1D4FFE',
+        'green-primary': '#4BCE97',
+        'gray-border-card': '#131317',
+        'gray-area-favorite': '#05030A',
+        'gray-hover-btn-slide': '#07050F',
+      },
+      width: {
+        'area-cards-mobile': '43.75rem',
+      },
       maxWidth: {
         grid: '1216px',
         'card-nft': '17.4rem',
@@ -30,20 +41,12 @@ module.exports = {
         'logo-size-mb': '10rem',
         'nav-header': '48.3rem',
         'left-cont-footer': '20.25rem', 
+        'content-desc-hero': '41.1rem',
       },
       height: {
         'area-image-nft': '236px',
-      },
-      colors: {
-        'blue-primary': '#1D4FFE',
-        'green-primary': '#4BCE97',
-        'gray-border-card': '#131317',
-        'gray-area-favorite': '#05030A'
-      },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        'area-cards-mobile': '15.3rem',
+        'area-card-desk': '26.6rem'
       },
       keyframes: {
         "accordion-down": {
@@ -59,7 +62,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-
+      backgroundImage: {
+        'hero-pattern': 'url("../assets/bg-hero.svg")',
+      },
 
     },
     screens: {

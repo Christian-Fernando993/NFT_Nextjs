@@ -147,6 +147,30 @@ const featuredCollections3 = [
     value: '0.0721',
     value_brl: '602,02', 
   }, 
+  {
+    name: 'Borex #171',
+    thumbnail: Thumb09,
+    value: '0.0721',
+    value_brl: '602,02', 
+  }, 
+  {
+    name: 'Durtre #2391',
+    thumbnail: Thumb10, 
+    value: '0.0721',
+    value_brl: '602,02', 
+  }, 
+  {
+    name: 'Hatter #321',
+    thumbnail: Thumb11,
+    value: '0.0721',
+    value_brl: '602,02', 
+  }, 
+  {
+    name: 'Sailor Skull #4431',
+    thumbnail: Thumb12, 
+    value: '0.0721',
+    value_brl: '602,02', 
+  }, 
 ]
 
 

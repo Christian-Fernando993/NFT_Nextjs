@@ -65,7 +65,6 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': 'url("../assets/bg-hero.svg")',
       },
-
     },
     screens: {
       '@tablet': '640px',

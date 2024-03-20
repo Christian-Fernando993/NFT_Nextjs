@@ -4,6 +4,7 @@ import { CardCollectors } from "@/components/card-collectors";
 
 import { SectionHero } from "@/components/section-hero";
 import { SectionCarrousel } from "@/components/setcion-carrousel";
+import { SectionCollectors } from "@/components/section-collectors";
 
 import Thumb01 from '@/assets/img-neft/01.jpg'
 import Thumb02 from '@/assets/img-neft/02.jpg'
@@ -19,6 +20,7 @@ import Thumb09 from '@/assets/img-neft/09.jpg'
 import Thumb10 from '@/assets/img-neft/10.jpg'
 import Thumb11 from '@/assets/img-neft/11.jpg'
 import Thumb12 from '@/assets/img-neft/12.jpg'
+
 
 const featuredCollections = [
   {
@@ -183,13 +185,21 @@ export default function Home() {
         title='Coleções notáveis' 
         data={featuredCollections}
       />
+      
       <hr className='border-t border-white border-opacity-5 max-w-grid mx-auto' />
+      
       <SectionCarrousel 
         subtitle='Seleção Mensal'
         title='Destaque do Mês'
         data={featuredCollections2}
       />
+
       <hr className='border-t border-white border-opacity-5 max-w-grid mx-auto' />
+      
+      <SectionCollectors />
+      
+      <hr className='border-t border-white border-opacity-5 max-w-grid mx-auto' />
+
       <SectionCarrousel 
         subtitle='Em Tendência'
         title='Tendências'

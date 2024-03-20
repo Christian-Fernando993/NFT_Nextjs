@@ -20,6 +20,8 @@ import Thumb09 from '@/assets/img-neft/09.jpg'
 import Thumb10 from '@/assets/img-neft/10.jpg'
 import Thumb11 from '@/assets/img-neft/11.jpg'
 import Thumb12 from '@/assets/img-neft/12.jpg'
+import { SectionBanner } from "@/components/section-banner";
+import { SectionQuestions } from "@/components/section-questions";
 
 
 const featuredCollections = [
@@ -175,7 +177,6 @@ const featuredCollections3 = [
   }, 
 ]
 
-
 export default function Home() {
   return (
     <>
@@ -205,6 +206,11 @@ export default function Home() {
         title='Tendências'
         data={featuredCollections3}
       />
+
+      <SectionBanner />
+
+      <SectionQuestions />
+
     </>
   );
 }
